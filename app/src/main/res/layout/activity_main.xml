@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="403dp"
+        android:layout_height="721dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Добро пожаловать в TravelTrip"
+            android:fontFamily="@font/font"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="76dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:onClick="TourOpersSelect"
+            android:layout_width="282dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="60sp"
+            android:layout_marginRight="30sp"
+            android:background="@drawable/button"
+            android:text="Туроператоры"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="282dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="60sp"
+            android:layout_marginRight="30sp"
+            android:background="@drawable/button"
+            android:text="Туры"
+            android:onClick="ToursSelect"
+            android:textColor="@android:color/background_light" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="282dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="60sp"
+            android:layout_marginRight="30sp"
+            android:background="@drawable/button"
+            android:text="Создать заказ"
+            android:onClick="CreateOrder"
+            android:textColor="@android:color/background_light" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

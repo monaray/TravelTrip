@@ -1,19 +1,22 @@
 # TravelTrip
-Целью проекта является автоматизация работы туристической фирмы с помощью реализации в виде мобильного приложения.
-TravelTrip поможет легко и быстро управлять работой туристической фирмы.
+The aim of the project is to automate the work of a travel company through implementation in the form of a mobile application.
+TravelTrip helps you manage your travel agency quickly and easily.
 
-# Пользователь имеет возможность:
-* Добавить нового туроператора в базу данных с полями: название туроператора, электронная почта, номер телефона, адрес сайта.
-* Создавать туры с полями: название тура, туроператор(выпадающий список), страна, город, дата начала тура, дата конца тура, количество людей, количество звезд отеля, цена.
-* Удалять элементы таблиц туроператоры и туры из выпадающего списка по названию и очистить таблицы полностью.
-* Просмотр таблиц туроператоры и туры.
-* Быстрое создание заказа с переадресацией на почтовый клиент с переносом информации с мобильного приложения в почту.
+# The user has the ability to:
+* Add a new tour operator to the database with fields: tour operator name, email, phone number, website address.
+* Create tours with fields: tour name, tour operator (drop-down list), country, city, tour start date, tour end date, number of people, number of hotel stars, price.
+* Remove elements of tables tour operators and tours from the drop-down list by name and clear the tables completely.
+* View tables of tour operators and tours.
+* Fast creation of an order with forwarding to the mail client with the transfer of information from the mobile application to the mail.
+ 
+# Basic tools:
+* Java programming language.
+* To perform a redirect to an email client with subsequent data transfer, an implicit intent is used to send Email messages.
+* XML markup language.
+* Android Studio development environment.
+* SQLite database.
 
-# Основные инструменты:
-* В качестве базы данных используется база данных SQLite для разработчиков мобильных приложений.
-* Для выполнения переадресации на почтовый клиент с последующим переносом данных используется неявное намерение Intent для отправки Email-сообщений.
-
-# Процесс работы приложения
+# Application workflow
 ![photo_2020-07-23_20-57-54](https://user-images.githubusercontent.com/32447963/88453230-bdd79200-ce6d-11ea-894d-fe9cf86520bd.jpg)
 ![photo_2020-07-23_20-57-49](https://user-images.githubusercontent.com/32447963/88453236-c760fa00-ce6d-11ea-9f69-c70862dd88fd.jpg)
 ![photo_2020-07-23_20-58-03](https://user-images.githubusercontent.com/32447963/88453244-d9429d00-ce6d-11ea-8338-61f0b95ef1f1.jpg)
